@@ -1,0 +1,45 @@
+
+main {
+    padding-top: 8rem; 
+    padding-bottom: 2rem; 
+    background-color: #f0f0f0; 
+}
+
+#servicos {
+    text-align: center;
+    max-width: 800px;
+    margin: 4rem auto;
+}
+
+#servicos h1 {
+    margin-bottom: 2rem;
+}
+
+.servico {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.servico img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    display: block;
+    margin: 0 auto 15px;
+}
+
+.servico h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.servico p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+}

@@ -9,10 +9,10 @@
 }
 #caption {
     position: absolute;
-    top: 6.5rem;
+    top: 5rem;
     left: 23%;
     width: 50%;
-    height: 20%;
+    height: 21%;
     color: white;
     background-color: rgba(0, 0, 0, 0.75);
     padding: 1rem 2rem;
@@ -101,4 +101,29 @@ main {
     .linha {
         flex-direction: column;
     }
+}
+
+.footer {
+    background-color: #d3d3d3; /* Light gray */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.footer div {
+    flex: 1;
+}
+
+.footer i {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 1.2em;
 }

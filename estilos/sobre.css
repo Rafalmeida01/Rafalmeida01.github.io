@@ -1,0 +1,29 @@
+.quem-somos {
+    display: flex;
+    align-items: center;
+    padding: 3rem 2rem; 
+    background-color: #f9f9f9;
+    margin-top: 2rem; 
+}
+
+.quem-somos-imagem {
+    max-width: 40%;
+    height: auto;
+    margin-right: 6rem; 
+}
+
+.quem-somos-texto {
+    max-width: 60%;
+    padding-left: 10rem;
+}
+
+.quem-somos-texto h1 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.quem-somos-texto p {
+    font-size: 1.125rem;
+    color: #666;
+    line-height: 1.6;
+}
