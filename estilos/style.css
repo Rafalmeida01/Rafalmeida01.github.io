@@ -1,0 +1,45 @@
+html {
+    font-size: 18px;
+
+}
+
+header {
+    background-color: rgb(117, 190, 255);
+    color: white !important;
+    position: fixed;
+    height: 7rem;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+header img {
+    float: right;
+    width: 8%;
+    margin-right: 15px;
+    margin-top: -35px;
+}
+
+header ul {
+    margin-top: 0;
+    position: relative;
+    left: 0rem;
+    top: 3rem;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 3rem;
+}
+
+header ul li a:hover {
+    color: rgb(117, 190, 255);
+    background-color: white;
+}
+
